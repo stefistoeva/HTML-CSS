@@ -1,0 +1,14 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    padding: 30px;
+}
+
+.icons {
+    list-style-type: none;
+    font-family: FontAwesome;
+}
+
+i {
+    font-style: normal;
+}
