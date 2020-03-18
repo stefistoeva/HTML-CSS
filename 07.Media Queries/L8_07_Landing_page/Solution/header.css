@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://st.hzcdn.com/simgs/e821b4320c8be7ee_4-1772/home-design.jpg);
+    font-family: Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .logo-container {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 157px;
+}
+
+header .logo-container h1 {
+    text-transform: capitalize;
+    color: rgb(104, 52, 123);
+    margin-bottom: 0;
+}
+
+header .logo-container small {
+    text-transform: uppercase;
+    font-size: 43%;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 40%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
