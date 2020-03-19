@@ -225,18 +225,3 @@ footer .bold-nav:last-child ul li:last-child ul li a i {
     display: block;
     font-size: 2em; 
 }
-
-
-/* .navigation ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
-} */
-
-/* 
-header .navigation nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    padding: 0;
-} */
