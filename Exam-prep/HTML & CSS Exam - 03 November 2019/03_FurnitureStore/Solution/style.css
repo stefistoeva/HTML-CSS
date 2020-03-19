@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: rgb(240, 228, 228);
+    margin: 0;
+}
+
+header {
+    background: rgb(249, 55, 0);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .navigation {
+    width: 40%;    
+}
+
+header .navigation nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header a,
+header i {
+    color: rgb(255, 245, 228);
+}
+
+header .search-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 1.8em;
+}
+
+header .search-bar input {
+    width: 30em;
+}
+
+header .search-bar .search-icon {
+    width: 3.5em;
+    background: rgb(182, 175, 175);
+}
+
+header .search-bar .search-icon i {
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
+}
+
+header .my-account .profile-icon i {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    margin: 30px auto;
+}
+
+main .rooms {
+    margin-bottom: 30px;
+}
+
+main .rooms ul, 
+main .service ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+main .rooms ul li, 
+main .service ul li {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main .rooms ul li .img-wrapper {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+main .rooms ul li .img-wrapper img {
+    width: 100%;
+}
+
+main .rooms span {
+    color: rgb(140, 138, 148);
+    margin-top: 5px;
+}
+
+main .shop {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+main .shop .shop-info {
+    flex: 0 1 40%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main .shop .shop-info h1 {
+    color: rgb(249, 55, 0);
+    font-size: 2.6em;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+main .shop span {
+    color: rgb(140, 138, 148);
+    margin-top: 20px;
+}
+
+main .shop .shop-info a {
+    color: rgb(255, 245, 228);
+    background: rgb(249, 55, 0);
+    align-self: flex-start;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+main .shop .img-wrapper {
+    flex: 0 1 65%;
+    display: flex;
+}
+
+main .shop .img-wrapper img {
+    width: 100%;
+}
+
+main .service ul {
+    background: rgb(202, 195, 195);
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+main .service ul li h3 {
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+}
+
+main .service ul li .img-wrapper {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(230, 214, 214);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+main .service ul li .img-wrapper img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+footer .bold-nav {
+    width: 40%;
+}
+
+footer .bold-nav .button {
+    background: rgb(202, 195, 195);
+    border-radius: 5px;
+    padding: 5px 60px;
+}
+
+footer .bold-nav ul {
+    padding: 0;
+    justify-content: space-between;
+}
+
+footer .bold-nav:last-child {
+    width: 50%;
+}
+
+footer .bold-nav ul a {
+    color: rgb(128, 128, 128);
+}
+
+footer .bold-nav > ul > li:first-child {
+    font-weight: 700;
+}
+
+footer .bold-nav:last-child ul li:last-child {
+    width: 30%;
+}
+
+footer .bold-nav:last-child ul li:last-child ul li a i {
+    display: block;
+    font-size: 2em; 
+}
+
+
+/* .navigation ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+} */
+
+/* 
+header .navigation nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0;
+} */

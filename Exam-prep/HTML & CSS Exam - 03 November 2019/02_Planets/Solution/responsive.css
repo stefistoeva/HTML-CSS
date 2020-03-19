@@ -1,0 +1,42 @@
+@media all and (max-width:850px) {
+    .news ul {
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .news ul .link {
+        display: inline-block;
+        width: 100%;
+        /* height: auto; */
+    }
+
+    .news ul .link img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .news ul h2 {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .pair {
+        flex-flow: column nowrap;
+    }
+
+    .planet{
+        width: 94%;
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
+
+    .primary footer nav a:nth-child(even) {
+        border: none;
+    }
+}
