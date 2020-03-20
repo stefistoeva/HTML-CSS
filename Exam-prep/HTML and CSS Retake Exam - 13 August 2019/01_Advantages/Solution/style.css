@@ -1,0 +1,54 @@
+@import url("https://fonts.google.com/specimen/Lato");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+
+.wrapper header {
+    background: rgb(66, 171, 248);
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.wrapper ul {
+    list-style: none;
+    align-self: stretch;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    overflow: hidden;
+}
+
+.wrapper ul li {
+    margin-bottom: 1px;
+    background-color: rgb(244, 245, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.wrapper ul li p {
+    display: inline-block;
+}
+
+.wrapper ul li i {
+    color: rgb(37, 190, 95);
+    font-size: 1.2em;
+}

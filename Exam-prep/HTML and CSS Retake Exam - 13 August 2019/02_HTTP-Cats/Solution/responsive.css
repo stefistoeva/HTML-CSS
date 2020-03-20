@@ -1,0 +1,17 @@
+@media all and (max-width: 768px) {
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .wrapper .spotlight {
+        text-align: center;
+    }
+
+    .wrapper .spotlight .inner {
+        padding: 1em;
+    }
+}
