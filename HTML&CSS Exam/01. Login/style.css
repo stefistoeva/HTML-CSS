@@ -1,0 +1,90 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -185px;
+    z-index: -1;
+}
+
+.img-wrapper img {
+    width: 100%;
+    opacity: 1.5;
+    filter: brightness(40%)
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 24%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.form-wrapper form {
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+    align-items: center;
+}
+
+.form-wrapper .input-container {
+    border-bottom: 1px solid rgb(242, 242, 242);
+    width: 100%;
+    padding: 35px 0 10px 30px;
+}
+
+.form-wrapper .input-container input {
+    border: none;
+    font-size: 1em;
+}
+
+.form-wrapper button {
+    background-color: rgb(212, 24, 114);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.form-wrapper i {
+    margin-right: 20px;
+    color: rgb(126, 137, 149);
+}
