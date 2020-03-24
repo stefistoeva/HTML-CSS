@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+  background: rgb(237, 237, 237);
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul.gallery {
+  list-style: none;
+}
+
+ul.gallery li {
+  display: inline;
+}
+
+img {
+  border: 0.4rem solid black;
+  padding: 0.8rem;
+  background: white;
+  width: 30%;
+  /* height: 500px; */
+  margin: 0.2rem;
+  vertical-align: middle;
+}
